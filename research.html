@@ -35,16 +35,15 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
 
-<!--      <h1 class="logo"><a href="index.html">Me &amp; Family</a></h1>-->
-      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo"><img src="assets/img/ECEN_logo.png" alt="" class="img-fluid"></a>
       <a href="index.html" class="logo"><img src="assets/img/energy_institute_logo.png" alt="" class="img-fluid"></a>
-      <span class="caption" id="header-caption">Dr. Le Xie's Research Group</span>
+<!--      <span class="caption" id="header-caption">Dr. Le Xie's Research Group</span>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="group.html">Group Members</a></li>
-          <li><a href="research.html">Research</a></li>
+          <li><a class="active" href="research.html">Research</a></li>
           <li><a href="teaching.html">Teaching</a></li>
           <li><a href="contact.html">Contact</a></li>
 
@@ -91,14 +90,20 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
+    <section class="background">
+      <div class="text-center">
+        <img src="assets/img/research_background.png" class="img-fluid" style="height: 80%; width: 80%;">
+      </div>
+    </section>
+
     <!-- ======= Publications ======= -->
     <section id="publications" class="publications">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-4" style="text-align: center;">
             <h4>Publications</h4>
           </div>
-          <div style="font-size: large;" class="col-md-6">
+          <div style="font-size: large;" class="col-md-8">
             My publications can be found on
             <a href="https://scholar.google.com/citations?hl=en&user=JmeGCHYAAAAJ">Google scholar</a>.
           </div>
@@ -110,10 +115,10 @@
     <section id="Modeling Tools & Datasets" class="datasets">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-4" style="text-align: center;">
             <h4>Modeling Tools and Datasets</h4>
           </div>
-          <div style="font-size: large;" class="col-md-6">
+          <div style="font-size: large;" class="col-md-8">
             <ul>
               <li><a href="https://github.com/tamu-engineering-research/Crypto_mining_impacts">Crypto Mining Impacts</a></li>
               <li><a href="https://github.com/tamu-engineering-research/OpenGridGym">Open Grid Gym</a></li>
@@ -125,25 +130,11 @@
       </div>
     </section>
 
-    <!-- ======= Funding ======= -->
-    <section id="Funding" class="Funding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-2">
-            <h4>Funding</h4>
-          </div>
-          <div class="col-md-6">
-
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- ======= Projects Section ======= -->
     <section id="projects" class="projects">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-2">
+          <div class="col-md-4" style="text-align: center;">
             <h4>Projects</h4>
           </div>
           <div class="col-md-6">
@@ -268,6 +259,21 @@
         </div>
       </div>
     </section><!-- End Projects Section -->
+
+    <!-- ======= Funding ======= -->
+    <section id="Funding" class="Funding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4" style="text-align: center;">
+            <h4>Funding</h4>
+          </div>
+          <div class="col-md-8">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main><!-- End #main -->
 
 
@@ -431,15 +437,18 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <div class="row">
+      <div class="row" style="text-align: left;">
         <div class="col-md-6">
           <div class="title">
-            <h3>Contact</h3>
+            <h4>Contact</h4>
+            <br>
             <div class="contactinfo">
-              Texas A&M Energy Institute<br>
-              Frederick E. Giesecke Engineering Research Bldg <br>
-              3372 TAMU<br>
-              College Station, TX 77843-3372<br>
+              Dr. Le Xie<br>
+              <br>
+              Department of Electrical and Computer Engineering<br>
+              Texas A&M University<br>
+              301 Wisenbaker Engineering Building<br>
+              College Station, TX 77843-3128<br>
               <br>
               +1(979)845-7563<br>
               le.xie@tamu.edu
@@ -448,12 +457,23 @@
         </div>
         <div class="col-md-6">
           <div class="title">
-            <h3>Assistant</h3>
+            <h4>Assistant</h4>
+            <br>
+            <div class="assistant">
+              Kelly Ford Nickinson<br>
+              <br>
+              +1(979)458-2422<br>
+              kelly.ford@tamu.edu
+            </div>
           </div>
+          <br>
           <div class="title">
-            <h3>Centers/Groups</h3>
+            <h4>Centers/Groups</h4>
             <div class="groups">
-              EPG, Energy Institute, TAMU Smart Grid Center
+              <br>
+              <a href="https://epg.engr.tamu.edu/">Energy and Power Group</a>,
+              <a href="https://energy.tamu.edu/">Energy Institute</a>,
+              <a href="https://smartgridcenter.tamu.edu/">TAMU Smart Grid Center</a>
             </div>
           </div>
         </div>
